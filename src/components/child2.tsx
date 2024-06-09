@@ -1,5 +1,6 @@
 import React from 'react';
 
+
 interface Child2Props {
   decrementMoney: () => void;
 }

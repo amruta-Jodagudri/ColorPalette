@@ -1,13 +1,13 @@
 'use client'
-import ColorItem from "@/pages";
-import Parent from "./components/parent";
+import Index from "@/assets/index";
+import Parent from "@/components/parent";
 
 export default function Home() {
   return (
-    <div className="">
+    <div>
       <Parent/>
       <br></br>
-      <ColorItem/>
+      <Index/>
     </div>
   );
 }

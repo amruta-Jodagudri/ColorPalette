@@ -1,8 +1,8 @@
+import ColorItem from '@/assets/ColorItem';
 import update from 'immutability-helper';
 import React, { useState } from 'react';
 import { DndProvider } from 'react-dnd';
 import { HTML5Backend } from 'react-dnd-html5-backend';
-import ColorItem from '../pages/ColorItem';
 
 const ColorPalette: React.FC = () => {
   const [colors, setColors] = useState<string[]>([
